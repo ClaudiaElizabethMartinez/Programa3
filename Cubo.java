@@ -16,10 +16,10 @@ public class Cubo extends Cuadrado {
 	    }
 
 
-	    public   double calcularPerimetro(boolean is_super)
+	    public   double calcularPerimetro(boolean bandera)
 	    {
 
-	        if (is_super){
+	        if (bandera){
 	           return super.calcularPerimetro ();
 	        }
 	        else{
